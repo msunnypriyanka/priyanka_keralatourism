@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="image" background="images/login.jpg">
+
+    <div class="login">
+<form action="Home.html" onsubmit="return validate()">
+    <h2>Login</h2><br>
+    <label for="username">Username:</label><br>
+    <input type="email" placeholder="Enter your email id" id="email"><br>
+    <br>
+    <label for="password">Password:</label><br>
+    <input type="password" placeholder="Enter your password" id="pwd"><br>
+    <br>
+    <div class="submit-log">
+     <button type="button" class="btn btn-outline-primary" id="submit">Sign-in</button> 
+    <br>
+    </div>
+    <br>
+    <p>Need to sign up?</p><br>
+    <a href="signup.html">Sign-Up</a><br>
+</form> 
+<!-- ------------------------------------------------- -->
+<!-- <form action="Home.html">
+    <input type="email" name="" id="email" placeholder="email" required>
+    <input type="password" id="password" placeholder="password" required>
+    <button>submit</button>
+   </form> -->
+
+</div> 
+<script src="script.js"></script>  
+</body>
+</html>

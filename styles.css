@@ -1,0 +1,17 @@
+body{
+    background-color: #a2d5f2;
+}
+.mail{
+    border: 1px solid white;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 290px;
+    margin-top: 100px;
+    margin-right: 430px;
+    /* margin-bottom: 400px; */
+}
+h2{
+    color: #40a8c4;
+}
